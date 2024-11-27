@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="AddCollectionViewCell" customModule="HydrationTracker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="313" height="431"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="313" height="431"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jfd-xh-3ua">
+                        <rect key="frame" x="10" y="10" width="293" height="411"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zga-ny-9L7">
+                                <rect key="frame" x="96.666666666666686" y="155.66666666666666" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="0XM-lZ-jCQ"/>
+                                    <constraint firstAttribute="height" constant="100" id="NS1-DS-qmZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30ml" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THx-aI-zlx">
+                                <rect key="frame" x="96.666666666666686" y="260.66666666666669" width="100" height="20.333333333333314"/>
+                                <color key="backgroundColor" red="0.67843137249999996" green="0.92156862750000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" red="0.0078431377190000002" green="0.02745098248" blue="0.24313727020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7607843876" green="0.89411771299999998" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="zga-ny-9L7" firstAttribute="centerX" secondItem="Jfd-xh-3ua" secondAttribute="centerX" id="J0c-9H-Veh"/>
+                            <constraint firstItem="THx-aI-zlx" firstAttribute="trailing" secondItem="zga-ny-9L7" secondAttribute="trailing" id="KRW-nP-YaK"/>
+                            <constraint firstItem="THx-aI-zlx" firstAttribute="centerX" secondItem="zga-ny-9L7" secondAttribute="centerX" id="KpW-dl-ihR"/>
+                            <constraint firstItem="THx-aI-zlx" firstAttribute="height" relation="greaterThanOrEqual" secondItem="zga-ny-9L7" secondAttribute="height" multiplier="0.003333" id="Ogf-wu-zqn"/>
+                            <constraint firstItem="THx-aI-zlx" firstAttribute="top" secondItem="zga-ny-9L7" secondAttribute="bottom" constant="5" id="ZqD-Tv-pjM"/>
+                            <constraint firstItem="THx-aI-zlx" firstAttribute="width" secondItem="zga-ny-9L7" secondAttribute="width" id="t4P-Tw-HLR"/>
+                            <constraint firstItem="zga-ny-9L7" firstAttribute="centerY" secondItem="Jfd-xh-3ua" secondAttribute="centerY" id="u3H-ih-qIi"/>
+                            <constraint firstItem="THx-aI-zlx" firstAttribute="leading" secondItem="zga-ny-9L7" secondAttribute="leading" id="zv4-Cc-4d9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Jfd-xh-3ua" secondAttribute="bottom" constant="10" id="4Il-dm-ieo"/>
+                <constraint firstItem="Jfd-xh-3ua" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="X1B-E7-lRB"/>
+                <constraint firstItem="Jfd-xh-3ua" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="kZo-yG-vuO"/>
+                <constraint firstAttribute="trailing" secondItem="Jfd-xh-3ua" secondAttribute="trailing" constant="10" id="o6m-TY-WFJ"/>
+            </constraints>
+            <size key="customSize" width="313" height="431"/>
+            <connections>
+                <outlet property="imageView" destination="zga-ny-9L7" id="B72-6d-5Bv"/>
+                <outlet property="titleLabel" destination="THx-aI-zlx" id="gxd-ZB-2AR"/>
+            </connections>
+            <point key="canvasLocation" x="339.69465648854958" y="153.16901408450704"/>
+        </collectionViewCell>
+    </objects>
+</document>

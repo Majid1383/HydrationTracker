@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34A95C0560439425514620830B1D7F89 /* WaterDrops-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF45BBE4ED5D79B0A92198791FC2A162 /* WaterDrops-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38936FB04FDF0249AAE855CE1E7BBC9A /* VerticalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7266BBAE476EBE8D181769CF4754B6 /* VerticalProgressView.swift */; };
+		48986232DD1C6FC45DB361F63325336F /* Pods-HydrationTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5616BC20084388FCEA69A749659C7833 /* Pods-HydrationTracker-dummy.m */; };
+		576C6408094DEACC54FECB9C4678ECFB /* WaterDrops-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FDE679A5425EDD6B39BB48167C3AD3 /* WaterDrops-dummy.m */; };
+		5A03F7067A5A5442F508C40BA2A15FE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+		7D1EFBC558DDB6E0EC18B9D51ACBBC7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		7F0E4B195B79DD96B5762B5BD7BB9722 /* MLVerticalProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B9019C73BC77F9CD6D81BAD180425 /* MLVerticalProgressView-dummy.m */; };
+		8755D3D3B3C0FED4FFB6F43DC84EBB7C /* Pods-HydrationTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F55F179A04236447F3386DBBDCB6F1A8 /* Pods-HydrationTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		883690ACCA2611B6EC11FC713266486F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		893075043CFDC3827EBDF7D91840E415 /* WaterDropsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D12B3FDC1C0740195C43D57B12637D /* WaterDropsView.swift */; };
+		9C14BDE70D8DF76D7851496E735F6C12 /* MLVerticalProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B94B79793C654E56B35B3B8B228C65 /* MLVerticalProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD52FF8BF32AC8932CF5278D3957DDA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D7EF933EE9C89B7CA8327AD64B57C7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680FDD828BD01326CD1CCC9882FC6FCE;
+			remoteInfo = MLVerticalProgressView;
+		};
+		4F48671FBF25A8D3AAD1C5CEA2F7C96E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8970A3F5F0DCFB18F544359FE5E4D611;
+			remoteInfo = WaterDrops;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000DE216270BAF933C0CFAEEB9A9F5A4 /* Pods-HydrationTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HydrationTracker-Info.plist"; sourceTree = "<group>"; };
+		0638984538E4A31BE30283893D7EC398 /* WaterDrops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WaterDrops.release.xcconfig; sourceTree = "<group>"; };
+		11FDE679A5425EDD6B39BB48167C3AD3 /* WaterDrops-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WaterDrops-dummy.m"; sourceTree = "<group>"; };
+		120F3B51D373F0A5AD3D682C5BBE6673 /* MLVerticalProgressView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MLVerticalProgressView-Info.plist"; sourceTree = "<group>"; };
+		1222CD6B66222FD3BAB959EE3C9385F0 /* Pods-HydrationTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HydrationTracker-frameworks.sh"; sourceTree = "<group>"; };
+		1DB9B61FB8DAEE28232880187CAEFCA2 /* WaterDrops.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WaterDrops.debug.xcconfig; sourceTree = "<group>"; };
+		3A1A683648E088A2FE585E316B5DE08E /* Pods-HydrationTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HydrationTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		434ED7351C91DCF4EF5EEAB3044A5210 /* Pods-HydrationTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HydrationTracker.modulemap"; sourceTree = "<group>"; };
+		4D7B9019C73BC77F9CD6D81BAD180425 /* MLVerticalProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLVerticalProgressView-dummy.m"; sourceTree = "<group>"; };
+		5585ECA669F7E4885D8637AFD63DD1C4 /* Pods_HydrationTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydrationTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5616BC20084388FCEA69A749659C7833 /* Pods-HydrationTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HydrationTracker-dummy.m"; sourceTree = "<group>"; };
+		6A7266BBAE476EBE8D181769CF4754B6 /* VerticalProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalProgressView.swift; path = Pod/Classes/VerticalProgressView.swift; sourceTree = "<group>"; };
+		6BD135680D7FF8724D4A016D68A3E66B /* Pods-HydrationTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HydrationTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		820D061A67B33EC4A57D601DF772EF16 /* Pods-HydrationTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HydrationTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D1A019CCBB17C68E70E653FE39166E2 /* WaterDrops-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WaterDrops-prefix.pch"; sourceTree = "<group>"; };
+		9AE08F66DFABEA0E0F3E6554BEC0E89A /* MLVerticalProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLVerticalProgressView.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1B883CE3DE33A1BA7C7B76E3D5C8CD7 /* MLVerticalProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLVerticalProgressView-prefix.pch"; sourceTree = "<group>"; };
+		C4B94B79793C654E56B35B3B8B228C65 /* MLVerticalProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLVerticalProgressView-umbrella.h"; sourceTree = "<group>"; };
+		C6FEF8A0437303BB9D6115F279A55633 /* MLVerticalProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLVerticalProgressView.release.xcconfig; sourceTree = "<group>"; };
+		D37764D9BC5F174E5CA7C565F6E64DBD /* MLVerticalProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MLVerticalProgressView.modulemap; sourceTree = "<group>"; };
+		D4D12B3FDC1C0740195C43D57B12637D /* WaterDropsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WaterDropsView.swift; path = Sources/WaterDropsView.swift; sourceTree = "<group>"; };
+		DA9279A2FB0F8BF9FAF42FA1FB4485F0 /* WaterDrops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WaterDrops.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF823DB371D207C614DC5748BE455BED /* WaterDrops-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WaterDrops-Info.plist"; sourceTree = "<group>"; };
+		E907099F54D5E70891729507F5930201 /* MLVerticalProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLVerticalProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFA5DE3BC323C1B0D875AF34EEC7E29 /* Pods-HydrationTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HydrationTracker.release.xcconfig"; sourceTree = "<group>"; };
+		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE485C0CF40AEF5ABD68F8A357207DE5 /* WaterDrops.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WaterDrops.modulemap; sourceTree = "<group>"; };
+		EF45BBE4ED5D79B0A92198791FC2A162 /* WaterDrops-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WaterDrops-umbrella.h"; sourceTree = "<group>"; };
+		F55F179A04236447F3386DBBDCB6F1A8 /* Pods-HydrationTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HydrationTracker-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657EB0231DFD55247B36133B28D0E5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD52FF8BF32AC8932CF5278D3957DDA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F2B2F5D8EFE5FA48B71779832A50A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1EFBC558DDB6E0EC18B9D51ACBBC7F /* Foundation.framework in Frameworks */,
+				5A03F7067A5A5442F508C40BA2A15FE7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828CECFAC255AFF20AD4915EF14DF729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883690ACCA2611B6EC11FC713266486F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CABFC3ED677198EB1E44A650B85D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E907099F54D5E70891729507F5930201 /* MLVerticalProgressView.framework */,
+				5585ECA669F7E4885D8637AFD63DD1C4 /* Pods_HydrationTracker.framework */,
+				DA9279A2FB0F8BF9FAF42FA1FB4485F0 /* WaterDrops.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE6440B6853131A80C53DDA34375AAB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DE6440B6853131A80C53DDA34375AAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */,
+				ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		21C7889A30A2B7D3771465505644435D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBEB377E9DB1D46C41213E3BEB75A679 /* MLVerticalProgressView */,
+				39A90EDD1272DCD11AD5DF9E493EC3FB /* WaterDrops */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39A90EDD1272DCD11AD5DF9E493EC3FB /* WaterDrops */ = {
+			isa = PBXGroup;
+			children = (
+				D4D12B3FDC1C0740195C43D57B12637D /* WaterDropsView.swift */,
+				7138B06D01C13E9970C2533925A7AA53 /* Support Files */,
+			);
+			path = WaterDrops;
+			sourceTree = "<group>";
+		};
+		7138B06D01C13E9970C2533925A7AA53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE485C0CF40AEF5ABD68F8A357207DE5 /* WaterDrops.modulemap */,
+				11FDE679A5425EDD6B39BB48167C3AD3 /* WaterDrops-dummy.m */,
+				DF823DB371D207C614DC5748BE455BED /* WaterDrops-Info.plist */,
+				8D1A019CCBB17C68E70E653FE39166E2 /* WaterDrops-prefix.pch */,
+				EF45BBE4ED5D79B0A92198791FC2A162 /* WaterDrops-umbrella.h */,
+				1DB9B61FB8DAEE28232880187CAEFCA2 /* WaterDrops.debug.xcconfig */,
+				0638984538E4A31BE30283893D7EC398 /* WaterDrops.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WaterDrops";
+			sourceTree = "<group>";
+		};
+		A28C8A971687DED6E4EC2934C2E2EAD0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9B49DABAA11A908AEEB50E5ECFB3866 /* Pods-HydrationTracker */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				21C7889A30A2B7D3771465505644435D /* Pods */,
+				05CABFC3ED677198EB1E44A650B85D9A /* Products */,
+				A28C8A971687DED6E4EC2934C2E2EAD0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E9B49DABAA11A908AEEB50E5ECFB3866 /* Pods-HydrationTracker */ = {
+			isa = PBXGroup;
+			children = (
+				434ED7351C91DCF4EF5EEAB3044A5210 /* Pods-HydrationTracker.modulemap */,
+				6BD135680D7FF8724D4A016D68A3E66B /* Pods-HydrationTracker-acknowledgements.markdown */,
+				820D061A67B33EC4A57D601DF772EF16 /* Pods-HydrationTracker-acknowledgements.plist */,
+				5616BC20084388FCEA69A749659C7833 /* Pods-HydrationTracker-dummy.m */,
+				1222CD6B66222FD3BAB959EE3C9385F0 /* Pods-HydrationTracker-frameworks.sh */,
+				000DE216270BAF933C0CFAEEB9A9F5A4 /* Pods-HydrationTracker-Info.plist */,
+				F55F179A04236447F3386DBBDCB6F1A8 /* Pods-HydrationTracker-umbrella.h */,
+				3A1A683648E088A2FE585E316B5DE08E /* Pods-HydrationTracker.debug.xcconfig */,
+				EBFA5DE3BC323C1B0D875AF34EEC7E29 /* Pods-HydrationTracker.release.xcconfig */,
+			);
+			name = "Pods-HydrationTracker";
+			path = "Target Support Files/Pods-HydrationTracker";
+			sourceTree = "<group>";
+		};
+		FBEB377E9DB1D46C41213E3BEB75A679 /* MLVerticalProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				6A7266BBAE476EBE8D181769CF4754B6 /* VerticalProgressView.swift */,
+				FD2BF4C33192C2BE3F76FCCE2AA8D8FA /* Support Files */,
+			);
+			path = MLVerticalProgressView;
+			sourceTree = "<group>";
+		};
+		FD2BF4C33192C2BE3F76FCCE2AA8D8FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D37764D9BC5F174E5CA7C565F6E64DBD /* MLVerticalProgressView.modulemap */,
+				4D7B9019C73BC77F9CD6D81BAD180425 /* MLVerticalProgressView-dummy.m */,
+				120F3B51D373F0A5AD3D682C5BBE6673 /* MLVerticalProgressView-Info.plist */,
+				B1B883CE3DE33A1BA7C7B76E3D5C8CD7 /* MLVerticalProgressView-prefix.pch */,
+				C4B94B79793C654E56B35B3B8B228C65 /* MLVerticalProgressView-umbrella.h */,
+				9AE08F66DFABEA0E0F3E6554BEC0E89A /* MLVerticalProgressView.debug.xcconfig */,
+				C6FEF8A0437303BB9D6115F279A55633 /* MLVerticalProgressView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MLVerticalProgressView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		933CB052B2C5EF8550925D4C6EE167BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C14BDE70D8DF76D7851496E735F6C12 /* MLVerticalProgressView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5882E240C186B5997B1FC3288C99A10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A95C0560439425514620830B1D7F89 /* WaterDrops-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5C2FC0F75732904AC497D71CDBF251 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8755D3D3B3C0FED4FFB6F43DC84EBB7C /* Pods-HydrationTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		680FDD828BD01326CD1CCC9882FC6FCE /* MLVerticalProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC09CCCC5DED098C798020B5C4BF4D99 /* Build configuration list for PBXNativeTarget "MLVerticalProgressView" */;
+			buildPhases = (
+				933CB052B2C5EF8550925D4C6EE167BB /* Headers */,
+				9E101238AB03C80E15713F853548BD9F /* Sources */,
+				66F2B2F5D8EFE5FA48B71779832A50A3 /* Frameworks */,
+				5B68398070F2FEDF283E9662002ADEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLVerticalProgressView;
+			productName = MLVerticalProgressView;
+			productReference = E907099F54D5E70891729507F5930201 /* MLVerticalProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85A3463991BB15140EE87BD208761A4B /* Pods-HydrationTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F830CF61CCC482A21672DE20BC662B /* Build configuration list for PBXNativeTarget "Pods-HydrationTracker" */;
+			buildPhases = (
+				FD5C2FC0F75732904AC497D71CDBF251 /* Headers */,
+				4992D007FE1AE444417C90AFE8F9D3F3 /* Sources */,
+				657EB0231DFD55247B36133B28D0E5D5 /* Frameworks */,
+				9A1978451DBE1EAB9069C63B9CF0EC5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B35E8ED3574666028A90097709E1D7C9 /* PBXTargetDependency */,
+				C5DA010AC4756511A9E05C6E3D2E37D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-HydrationTracker";
+			productName = Pods_HydrationTracker;
+			productReference = 5585ECA669F7E4885D8637AFD63DD1C4 /* Pods_HydrationTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8970A3F5F0DCFB18F544359FE5E4D611 /* WaterDrops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A41A2DF66D8C9A7DB7869C3A981E44 /* Build configuration list for PBXNativeTarget "WaterDrops" */;
+			buildPhases = (
+				F5882E240C186B5997B1FC3288C99A10 /* Headers */,
+				1962E806E213A809B7DFBB4FAE3DAFE6 /* Sources */,
+				828CECFAC255AFF20AD4915EF14DF729 /* Frameworks */,
+				41EFA72509609F3D8B448A1AC78D6874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterDrops;
+			productName = WaterDrops;
+			productReference = DA9279A2FB0F8BF9FAF42FA1FB4485F0 /* WaterDrops.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 05CABFC3ED677198EB1E44A650B85D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				680FDD828BD01326CD1CCC9882FC6FCE /* MLVerticalProgressView */,
+				85A3463991BB15140EE87BD208761A4B /* Pods-HydrationTracker */,
+				8970A3F5F0DCFB18F544359FE5E4D611 /* WaterDrops */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41EFA72509609F3D8B448A1AC78D6874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B68398070F2FEDF283E9662002ADEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1978451DBE1EAB9069C63B9CF0EC5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1962E806E213A809B7DFBB4FAE3DAFE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576C6408094DEACC54FECB9C4678ECFB /* WaterDrops-dummy.m in Sources */,
+				893075043CFDC3827EBDF7D91840E415 /* WaterDropsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4992D007FE1AE444417C90AFE8F9D3F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48986232DD1C6FC45DB361F63325336F /* Pods-HydrationTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E101238AB03C80E15713F853548BD9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0E4B195B79DD96B5762B5BD7BB9722 /* MLVerticalProgressView-dummy.m in Sources */,
+				38936FB04FDF0249AAE855CE1E7BBC9A /* VerticalProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B35E8ED3574666028A90097709E1D7C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLVerticalProgressView;
+			target = 680FDD828BD01326CD1CCC9882FC6FCE /* MLVerticalProgressView */;
+			targetProxy = 2D7EF933EE9C89B7CA8327AD64B57C7D /* PBXContainerItemProxy */;
+		};
+		C5DA010AC4756511A9E05C6E3D2E37D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WaterDrops;
+			target = 8970A3F5F0DCFB18F544359FE5E4D611 /* WaterDrops */;
+			targetProxy = 4F48671FBF25A8D3AAD1C5CEA2F7C96E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AA7482A0394D225514AED182901C3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFA5DE3BC323C1B0D875AF34EEC7E29 /* Pods-HydrationTracker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HydrationTracker/Pods-HydrationTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HydrationTracker/Pods-HydrationTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4639B7BDD5A3329A122AE72CD24470C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1A683648E088A2FE585E316B5DE08E /* Pods-HydrationTracker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-HydrationTracker/Pods-HydrationTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HydrationTracker/Pods-HydrationTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49EA5FD361F20B1A967D4F09BCC816BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0638984538E4A31BE30283893D7EC398 /* WaterDrops.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/WaterDrops/WaterDrops-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/WaterDrops/WaterDrops-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WaterDrops/WaterDrops.modulemap";
+				PRODUCT_MODULE_NAME = WaterDrops;
+				PRODUCT_NAME = WaterDrops;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A4424ACDE6C05564F5422DF3156A331C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE08F66DFABEA0E0F3E6554BEC0E89A /* MLVerticalProgressView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MLVerticalProgressView/MLVerticalProgressView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MLVerticalProgressView/MLVerticalProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MLVerticalProgressView/MLVerticalProgressView.modulemap";
+				PRODUCT_MODULE_NAME = MLVerticalProgressView;
+				PRODUCT_NAME = MLVerticalProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D890743FBDA47463CEF94F7C4EB0E70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6FEF8A0437303BB9D6115F279A55633 /* MLVerticalProgressView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MLVerticalProgressView/MLVerticalProgressView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MLVerticalProgressView/MLVerticalProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MLVerticalProgressView/MLVerticalProgressView.modulemap";
+				PRODUCT_MODULE_NAME = MLVerticalProgressView;
+				PRODUCT_NAME = MLVerticalProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F55AEE031F5205EE52A15A58F0B61C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB9B61FB8DAEE28232880187CAEFCA2 /* WaterDrops.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/WaterDrops/WaterDrops-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/WaterDrops/WaterDrops-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WaterDrops/WaterDrops.modulemap";
+				PRODUCT_MODULE_NAME = WaterDrops;
+				PRODUCT_NAME = WaterDrops;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07A41A2DF66D8C9A7DB7869C3A981E44 /* Build configuration list for PBXNativeTarget "WaterDrops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55AEE031F5205EE52A15A58F0B61C05 /* Debug */,
+				49EA5FD361F20B1A967D4F09BCC816BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F830CF61CCC482A21672DE20BC662B /* Build configuration list for PBXNativeTarget "Pods-HydrationTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4639B7BDD5A3329A122AE72CD24470C7 /* Debug */,
+				1AA7482A0394D225514AED182901C3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC09CCCC5DED098C798020B5C4BF4D99 /* Build configuration list for PBXNativeTarget "MLVerticalProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4424ACDE6C05564F5422DF3156A331C /* Debug */,
+				D890743FBDA47463CEF94F7C4EB0E70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLVerticalProgressView.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WaterDrops.framework
